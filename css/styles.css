@@ -1,0 +1,90 @@
+body {
+  font-family:'Roboto', sans-serif;
+  color:#434455;
+  background-color:#FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2;
+  font-style: normal;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color:#434455;
+}
+
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  color: #404BBF;
+}
+
+a:active,
+button:active {
+  color: #434455;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: white;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* small text 
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4;
+
+  body medium
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2;
+  font-weight: 500;
+
+  button text
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4;
+  font-weight: 500;
+
+  link text
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4;
+  font-weight: 400;
+  text-decoration: underline;
+
+*/
+
+header {
+  background-color: #FFFFFF;
+}
+
+footer {
+  background-color: #2E2F42;
+  color: #F4F4FD;
+}
+
+.first-banner {
+  background-color: #2E2F42;
+
+}
+
+.team {
+  background-color: #F4F4FD;
+}
+
