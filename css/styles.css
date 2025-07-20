@@ -178,3 +178,7 @@ button:focus {
 .webstudio-logo-accent {
   color: #f4f4fd;
 }
+
+.footer-text {
+  letter-spacing: 0.02em;
+}
