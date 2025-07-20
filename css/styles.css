@@ -46,6 +46,16 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.portfilio-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+  letter-spacing: 0.02em;  
 }
 
 .advantages-header {
@@ -60,11 +70,15 @@ a {
 
 .member {
   color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .member-text {
   font-size: 16px;
-  
+
 }
 
 /* small text 
@@ -134,7 +148,7 @@ a {
 }
 
 .nav-menu {
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 500;
   color: #2e2f42;
 }
