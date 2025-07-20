@@ -9,7 +9,6 @@ body {
   cursor: pointer;
 }
 
-
 button {
   color: #434455;
   font-size: 16px;
@@ -103,10 +102,8 @@ button:focus {
 .banner-header {
   text-align: center;
   letter-spacing: 0.02em;
-  line-height: 1.07;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
   line-height: 1.07;
   color: white;
 }
@@ -148,6 +145,7 @@ button:focus {
   font-weight: 500;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  font-size: 16px;
 }
 
 .address {
@@ -156,4 +154,8 @@ button:focus {
 
 .nav-address {
   letter-spacing: 0.02em;
+}
+
+.webstudio-logo-accent {
+  color: #f4f4fd;
 }
