@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2;
+  letter-spacing: 0.02em;
   font-style: normal;
   cursor: pointer;
 }
@@ -22,26 +22,49 @@ button:focus {
   color: #404BBF;
 }
 
-a:active,
-button:active {
+button {
   color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
-  color: white;
+a {
+  color: #434455;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
-h2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-h3 {
+.advantages-header {
   font-weight: 500;
   font-size: 20px;
+  color: #2e2f42;
+}
+
+.team-member {
+  background-color: #FFFFFF;
+}
+
+.member {
+  color: #2E2F42;
+}
+
+.member-text {
+  font-size: 16px;
+  
 }
 
 /* small text 
@@ -54,37 +77,72 @@ h3 {
   line-height: 24px;
   letter-spacing: 2;
   font-weight: 500;
-
-  button text
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 4;
-  font-weight: 500;
-
-  link text
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4;
-  font-weight: 400;
-  text-decoration: underline;
-
 */
 
-header {
+.header {
   background-color: #FFFFFF;
 }
 
-footer {
+.footer {
   background-color: #2E2F42;
   color: #F4F4FD;
 }
 
 .first-banner {
   background-color: #2E2F42;
+}
 
+.banner-header {
+  text-align: center;
+  line-height: 1.07;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: white;
+}
+
+.banner-button {
+  background-color: #4D5AE5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.banner-button:focus,
+.banner-button:hover {
+  background-color: #404BBF;
 }
 
 .team {
   background-color: #F4F4FD;
 }
 
+.webstudio-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-transform: uppercase; 
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2E2F42
+}
+
+.nav-menu {
+  line-height: 24px;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.address {
+  font-style: normal;
+}
+
+.nav-address {
+  letter-spacing: 0.02em;
+}
